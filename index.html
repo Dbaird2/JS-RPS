@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside>
+        <h2>Scores</h2>
+        <div class="user-score-sheet">
+            <h3>You</h3>
+            <h3><span id="user-score"></span></span></h3>
+        </div>
+        <div class="computer-score-sheet">
+            <h3>Computer</h3>
+            <h3><span id="computer-score"></span></span></h3>
+        </div>
+    </aside>
+    <div class="user-input">
+        <input type="text" id="input-answer" placeholder="Rock Paper or Scissors">
+        <button class="button" id="input-button" onclick="getUserChoice()">Submit</button>
+    </div>
+    <div class="user-buttons">
+        <button class="button" onclick="getUserChoice2('rock')">Rock</button>
+        <button class="button" onclick="getUserChoice2('paper')">Paper</button>
+        <button class="button" onclick="getUserChoice2('scissors')">Scissors</button>
+    </div>
+    <div class="winner">
+        <h3><span id="winner">N/A</span></h3>
+        <button class="button" onclick="reset()">Reset</button>
+    </div>
+    <script src = "app.js">
+    </script>    
+</body>
+
+</html>

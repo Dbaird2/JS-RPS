@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(52, 47, 47);
+    text-align: center;
+}
+.computer-score-sheet{
+    color: aliceblue;
+}
+.computer-score-sheet,
+.user-score-sheet{
+    display: inline-flex;
+    color: aliceblue;
+    padding-right: 10px;
+}
+.user-score-sheet{
+    color: aliceblue;
+
+}
+#computer-score,
+#user-score{
+    margin-left: 20px;
+}
+
+#input-answer{
+    border-color: transparent;
+    background-color: dimgray;
+}
+::placeholder{
+    color: white;
+}
+.button{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+.button:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+#input-button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+h2{
+    color: white;
+    padding: 20px;
+}
+
+.winner{
+    color: aqua;
+    padding: 10px;
+}
